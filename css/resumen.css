@@ -1,0 +1,25 @@
+
+.seccion__resumen{
+    width: 100%;
+    border: 1px solid #7e7878;
+    /* border-collapse: collapse; */
+    margin-top: 2rem;
+    padding: 0.8rem 3.5rem;
+    border-radius: 1rem;
+    background-color: #afb6b6;
+    color: var(--dark-blue-1);
+    border: none;
+}
+
+.seccion__resumen table{
+    border-collapse: collapse;
+}
+
+.seccion__resumen table th, 
+.seccion__resumen table td {
+    border: 1px solid var(--dark-blue-3);
+    padding: 0.2rem 2rem;
+    font-family: var(--Volkhov);
+    border: 1px solid #7e7878;
+    width: 100%;
+}

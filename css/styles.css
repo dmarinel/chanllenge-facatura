@@ -2,6 +2,8 @@
 @import url('./header.css');
 @import url('./infoEmpresa.css');
 @import url('./detalleProducto.css');
+@import url('./resumen.css');
+@import url('./boton.css');
 
 *{
 margin:0;

@@ -1,0 +1,21 @@
+@import url('./variables.css');
+@import url('./header.css');
+@import url('./infoEmpresa.css');
+@import url('./detalleProducto.css');
+
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+/* Global  */
+html {
+    font-size: 14px;
+}
+
+body{
+    color: var(--white);
+    background-color: var(--dark-blue-1);
+    font-family: var(--open-sans);
+}

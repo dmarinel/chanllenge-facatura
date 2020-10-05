@@ -1,0 +1,84 @@
+.seccion__detalle{
+    background-color: #afb6b6;
+    color: var(--dark-blue-3);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px #5f6161;
+}
+
+.detalle__titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: var(--Volkhov);
+}
+
+.formularioProduct{
+    display: flex;
+    border-top: 1px solid rgb(126, 120, 120);
+    justify-content: space-between;
+}
+
+.producto__campo-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.inputCant{
+    width: 4rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+.inputDescripcion{
+    width: 25rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    text-align: justify;
+}
+
+.inputPreUnit{
+    width: 4rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+
+.inputPreTotal{
+    width: 4.5rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+.producto__campo-button{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    
+}
+.button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 2rem;
+    outline: none;
+    border: none;
+}

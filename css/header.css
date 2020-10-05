@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    background: -webkit-linear-gradient( left, var(--cyan), var(--blue));
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.header__nav{
+    
+}
+.header__list{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    
+}
+
+.header__list li{
+    margin: 2rem;
+    list-style: none;
+}
+

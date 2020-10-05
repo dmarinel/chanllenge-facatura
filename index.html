@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatura-g5</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li>Generar Factura</li>
+                <li>Reporte de Facturas</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="formulario">
+            <fieldset class="seccion__empresa">
+                <div>
+                    <h2>Información de la Empresa</h2>
+                </div>
+                <div class="seccion__campo-superior">
+                    <div class="seccion__campo-form">
+                        <label for="">Nro: </label>
+                        <input type="text" id="inputNro"> 
+                    </div>
+                    <div class="seccion__campo-form">
+                        <label for="">Nro RUC</label>
+                        <input type="text" id="inputRuc" >
+                    </div>
+                    <div class="seccion__campo-form">
+                        <label for="">FECHA</label>
+                        <input type="date" id="inputFecha"
+                        >
+                    </div>
+                </div>
+                <div class="seccion__campo-inferior">
+                    <div class="seccion__campo-form">
+                        <label for="">NOMBRE DE LA EMPRESA</label>
+                    <input type="text" id="inputNombreEmpresa">
+                    </div>
+                    <div class="seccion__campo-form">
+                        <label for="">DIRECCIÓN</label>
+                        <input type="text" id="inputDireccion">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="seccion__detalle">
+                <div class="detalle__titulo">
+                    <h2>Lista de productos</h2>
+                </div>
+                <div class="producto__campos">
+                    <div id="formularioProduct" class="formularioProduct">
+                        <div class="producto__campo-form">
+                        <label for="">CANT.</label>
+                        <input 
+                            type="number" 
+                            id="inputCant"
+                            value="0"
+                            class="inputCant"
+                        />
+                        </div>
+                        <div class="producto__campo-form">
+                        <label for="">DESCRIPTION:</label>
+                        <!-- <input 
+                            type="text" id="inputDescripcion"
+                            class="inputDescripcion"
+                        /> -->
+                        <select id="selectDescripcion"  class="inputDescripcion"> 
+                            <option label ="" value="0" >-- Seleccione --</option>
+                        </select>
+                        </div>
+                        <div class="producto__campo-form">
+                        <label for="">P.UNIT:</label>
+                        <input 
+                            type="text" 
+                            id="inputPreUnit"
+                            class="inputPreUnit"
+                            value="0"
+                        />
+                        
+                        </div>
+                        <div class="producto__campo-form">
+                        <label for="">P.TOTAL:</label>
+                        <input 
+                            type="text" 
+                            id="inputPreTotal"
+                            value="0"
+                            class="inputPreTotal"
+                        />
+                        </div>
+                        <div class="producto__campo-button">
+                            <!-- <br/> -->
+                            <button id="btnDetalle" class="button">
+                                +
+                            </button>
+                        </div>
+                </div>
+                </div>
+            </fieldset>
+            <fieldset class="seccion__resumen">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>CANT.</th>
+                            <th>DESCRIPTION</th>
+                            <th>P.UNIT</th>
+                            <th>P.TOTAL</th>
+                            <th>ACCIONES</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </fieldset>
+            <div>
+                <button id="btnForm" type="submit">
+                    Guardar
+                </button>
+            </div>
+        </form>
+    </main>
+    <script src="./database.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

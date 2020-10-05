@@ -1,0 +1,46 @@
+main{
+    width: 75%;
+    margin: 5rem auto;
+    background-color: var(--dark-blue-1);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px #bbb;
+    
+}
+
+/* SECCION EMPRESA */
+.seccion__empresa{
+    background-color: #afb6b6;
+    color: var(--dark-blue-3);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.seccion__empresa h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: var(--Volkhov);
+}
+
+.seccion__campo-superior,
+.seccion__campo-inferior
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.se
+
+.seccion__campo-form{
+    flex: 1;
+    /* display: flex; */
+}
+
+.seccion__campo-form input{
+    margin-left: 1rem;
+}
+
+.seccion__campo-inferior input{
+    width: 18rem;
+}
